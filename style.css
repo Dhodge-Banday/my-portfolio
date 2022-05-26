@@ -1,0 +1,463 @@
+#side-bar-menu{
+    background-color: #010F13;
+    width: 280px;
+    height: 654px;
+    position: fixed;
+    margin-top: -7px;
+    margin-left: -7px;
+}
+#my-picture{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    margin-left: 45px;
+    margin-top: 50px;
+    border: 1px solid gray;
+    box-shadow: 10px 5px 5px 5px ;
+}
+#my-picture2{
+    width: 580px;
+    height: 520px;
+    margin-left: 185px;
+    margin-top: -35px;
+    border: 1px solid gray;
+    box-shadow: 5px 2px 2px 2px ;
+}
+#my-name{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+#side-about-me{
+    background-color:#020C0D;
+    width: 1065px;
+    height: 654px;
+    position: absolute;
+    margin-left: 274px;
+    margin-top: -7px;
+    color: #dee3e4;
+}
+#my-cover{
+    width: 1065px;
+    height: 654px;
+    opacity: 0.4;
+    z-index: -1;
+}
+#side-about-me-2{
+    background-color: white;
+    width: 1050px;
+    height: 640px;
+    position: absolute;
+    margin-left: 274px;
+    margin-top: 649px;
+}
+#side-about-me-3{
+    width: 1050px;
+    height: 640px;
+    position: absolute;
+    margin-left: 274px;
+    margin-top: 1290px;
+}
+#about-me-welcome{
+    position: absolute;
+    margin-left: 150px;
+    text-align: center;
+    margin-top: 240px;
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+#cover-me{
+    position: absolute;
+    z-index: 3;
+}
+#cover-me-2{
+    position: absolute;
+    z-index: 1;
+    margin-left: 250px;
+    margin-top: -10px;
+}
+#about-me-name{
+    position: absolute;
+    width: 1000px;
+    text-align: center;
+    margin-top: 310px;
+    margin-left: -200px;
+    font-size: 80px;
+    animation-name: name;
+    animation-duration: 5s;
+    animation: name 5s infinite;
+    font-family: 'Tenor Sans', sans-serif;
+}
+@keyframes name {
+    from {left: -140px; color: rgb(170, 229, 240);}
+    to {left: 20px; color: rgb(12, 201, 226) }
+}
+#about-me-address{
+    position: absolute;
+    width: 500px;
+    font-size: 50px;
+    margin-top: 450px;
+    margin-left: 55px;
+}
+#about_me_clicked{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    margin-left: 110px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+}
+#about_me_clicked:hover{
+    background-color: #dee3e4;
+    color: black;
+    border:2px solid #136077;
+}
+#about_me_clicked_2{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    margin-left: 96px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 90px;
+    padding-right: 91px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+#about_me_clicked_2:hover{
+    background-color: #dee3e4;
+    color: black;
+    border:2px solid #136077;
+}
+#about_me_clicked_3{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    margin-left: 94px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 99px;
+    padding-right: 102px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 19px;
+}
+#about_me_clicked_3:hover{
+    background-color: #dee3e4;
+    color: black;
+    border:2px solid #136077;
+}
+#name-know{
+    color: #20c997;
+}
+#know-me{
+    position:absolute;
+    margin-left: 330px;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+    opacity: 80%;
+}
+#about-me-know-more2{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#about-me-know-more4{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#about-me-know-more{
+    width: 510px;
+    position: absolute;
+    margin-left: 30px;
+    padding: 9px;
+    margin-top: 80px;
+}
+#about-me-know-more-3{
+    width: 500px;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 90px;
+    padding: 9px;
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#hori{
+    width: 265px;
+    margin-left: 5px;
+}
+#hobbies{
+    position: absolute;
+    width: 980px;
+    height: 75px;
+    font-size: 20px;
+    margin-top: 410px;
+    padding-bottom: 100px;
+    margin-left: 50px;
+    
+}
+#cam{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 115px;
+    font-size: 30px;
+    color: #136077;
+    
+}
+#cams{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mus{
+    position: absolute;
+    margin-left: 475px;
+    font-size: 30px;
+    color: #136077;;
+    
+}
+#music{
+    position: absolute;
+    margin-left: 460px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#tra{
+    position: absolute;
+    margin-left: 815px;
+    margin-bottom: 150px;
+    font-size: 30px;
+    margin-top: -20px;
+    color: #136077;
+}
+#travel{
+    position: absolute;
+    margin-left: 790px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+}
+#heading-hobbies{
+    text-align: center;
+}
+#family-tree{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#picture-fam{
+    position: absolute;
+    width: 970px;
+    height: 520px;
+}
+#family-name{
+    text-align: center;
+}
+#heading-about-me{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#name-know{
+    font-family: 'Times New Roman', Times, serif;
+}
+.picture_fam{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    box-shadow: 1px 0px 2px 0px #20c997;
+    margin-top: -40px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px;
+}
+.picture_fam:hover{
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid #e06ad1;
+    
+}
+#fam1{
+    margin-left: 50px;
+    cursor: pointer;
+}
+#fam2{
+    margin-left: 720px;
+    margin-top: -55px;
+    cursor: pointer;
+}
+#fam3{
+    margin-left: 45px;
+    margin-top: 240px;
+    cursor: pointer;
+}
+#fam4{
+    margin-top: 240px;
+    margin-left: 720px;
+    cursor: pointer;
+}
+
+#hori2{
+    background-color: blue;
+    width: 1200px;
+}
+#name-fam-1{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#name-fam-2{
+    position: absolute;
+    margin-left: 730px;
+    margin-top: 180px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#name-fam-3{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#name-fam-4{
+    position: absolute;
+    margin-left: 775px;
+    margin-top: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#name-fam-5{
+    position: absolute;
+    margin-left: 773px;
+    margin-top: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#name-fam-6{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 180px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#family-name{
+    padding-bottom: 40px;
+    margin-top: -10px;
+    margin-left: 50px;
+    letter-spacing: 40px;
+    font-size: 40px;
+}
+#hori3{
+    position: absolute;
+    width: 260px;
+    margin-left: 400px;
+    margin-top: -60px;
+    padding-bottom: 2px;
+    background-color: #073042;
+}
+#qoutes{
+    position: absolute;
+    margin-left: 330px;
+    margin-top: -100px;
+    font-size: 30px;
+    font-family: 'Tangerine', cursive;
+}
+#qoutes-2{
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 140px;
+    font-size: 30px;
+    opacity: 20%;
+}
+.joseph-gabatbat{
+    position: absolute;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width: 900px;
+    height: 500px;
+    margin-left: 220px;
+    margin-top: 80px;
+    border-radius: 10px 10px 10px 10px;
+    border: 5px solid rgb(9, 61, 70);
+}
+#family-clicked{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    margin-left: 110px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(87, 57, 84);
+    border-radius: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+#family-clicked:hover{
+    background-color: #49156b;
+    color: white;
+}
+.family-design{
+    border-radius: 50%;
+    width: 220px; 
+    height: 220px;
+    margin-left: 310px;
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px 5px #810967;
+    padding: 25px;
+    margin-bottom: 100px;
+}
+#family-paragraph{
+    position: absolute;
+    color: black;
+    margin-left: 180px;
+    margin-top: -70px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(19, 93, 122);
+    padding: 30px;
+    border-radius: 10px;
+ }
+ #family-paragraph-2{
+    position: absolute;
+    color:black;
+    margin-left: 240px;
+    margin-top: -70px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(19, 93, 122);
+    padding: 30px;
+    border-radius: 10px;
+ }
+ #family-paragraph-3{
+    position: absolute;
+    color: black;
+    margin-left: 260px;
+    margin-top: -70px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(19, 93, 122);
+    padding: 30px;
+    border-radius: 10px;
+ }
+ #family-paragraph-4{
+    position: absolute;
+    color: black;
+    width: 250px;
+    margin-left: 320px;
+    margin-top: -40px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(19, 93, 122);
+    padding: px;
+    border-radius: 10px;
+    text-align: center;
+ }
+
+
